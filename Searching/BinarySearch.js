@@ -2,7 +2,7 @@
 // then the binary search can perform instead of linear search to increase the performance
 
 // start is 0, end is array last value, middle is the value present in middle, suppose the length of array
-// is event, middle has 2 values, so always take first value as middle.
+// is even, middle has 2 values, so always take first value as middle.
 // if the given value is greater than middle, then move the start to middle or move the end to middle if
 // the value is less than middle and continue till the value is in middle index
 

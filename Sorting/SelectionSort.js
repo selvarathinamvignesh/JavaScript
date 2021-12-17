@@ -1,5 +1,9 @@
 const { swap } = require('../Util/common')
 
+// Selection Sort compares the 2 value in sequence and find the lowest value by looping all through the
+// array and swap only the lowest value with current pointer value.
+// It continues the operation till all the values are sorted.
+
 function SelectionSort(arr){
   for(let i=0;i<arr.length;i++){
     let lowest = i;
